@@ -37,6 +37,9 @@ body{
 .margin-top-1{ 
     margin-top: 30px;
 }
+.margin-top-2{
+    margin-top:100px;
+} 
 .btn{
     text-decoration: none;
     color: white;
@@ -44,4 +47,10 @@ body{
     border-radius: 25px;
     display: inline-block;
     background-image: linear-gradient(to right, #12b9dc, #00a8e8, #0093f2, #007bf5, #125deb);
+    box-shadow: -10px 1px 11px rgba(0, 168, 232,0.3);
+}
+.about-me-container{
+    background: url(images/background/about-me.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
