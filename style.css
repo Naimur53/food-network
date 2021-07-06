@@ -14,6 +14,9 @@ body{
 .w-45{
     width: 45%;
 }
+.container{
+    padding: 3% 5%;
+}
 .d-flex{
     display: flex;
 }
@@ -57,6 +60,9 @@ body{
 }
 .margin-top-2{
     margin-top:100px;
+}
+.box-shadow-1{
+    box-shadow: 3px 5px 22px rgba(128, 128, 128,0.5);   
 } 
 .btn{
     text-decoration: none;
@@ -67,24 +73,38 @@ body{
     background-image: linear-gradient(to right, #12b9dc, #00a8e8, #0093f2, #007bf5, #125deb);
     box-shadow: -10px 1px 11px rgba(0, 168, 232,0.3);
 }
-.btn2{
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
+.border-radius-sm{
     border-radius: 5px;
-    display: inline-block;   
-    background-image: linear-gradient(to right, #12b9dc, #00a8e8, #0093f2, #007bf5, #125deb);
-    box-shadow: -10px 1px 11px rgba(0, 168, 232,0.3);
-}
+} 
 .about-me-container{
     background: url(images/background/about-me.jpg);
     background-repeat:no-repeat;
     background-size: cover;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.title{
+    margin-bottom: 60px; 
 }
 .title-content{ 
     margin: 0 auto;
     text-align: center;
 }
+.card{
+    width: 23%;  
+}
+.card .img-area img{
+    border-radius: 4px 4px 0 0 ;
+}
+.card-body{
+    background-color:rgba(18, 186, 220, 0.808);
+    padding: 15px 10px;
+    color: white;
+    border-radius: 0 0 4px 4px;
+}
+.card-body h3{ 
+    font-weight: 600;
+} 
 .column-area{
     justify-content: space-between; 
 }
@@ -92,8 +112,6 @@ body{
     width: 28%;
     padding: 13px;
     border-radius: 25px; 
-    box-shadow: 3px 5px 22px rgba(128, 128, 128,0.5); 
-
 }
 .column img{
     width: 100%;
@@ -105,8 +123,7 @@ body{
     justify-content: space-evenly;
     text-align: center; 
 }
-.social-activi-content{
-    box-shadow: 3px 5px 22px rgba(128, 128, 128,0.5); 
+.social-activi-content{  
     border-radius: 15px;
 }
 .social-activi-content div h1{ 
@@ -117,13 +134,8 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 30px;
-    box-shadow: 3px 5px 22px rgba(128, 128, 128,0.5); 
-
-} 
-.form{
-    justify-content: space-between;
-}
+    padding: 30px; 
+}  
 .address-img img{
     width: 40px;  
     border-radius: 50%;
@@ -139,16 +151,13 @@ body{
 .form-left-bottom { 
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-
+    text-align: center; 
 }
 .gmail{
     width: 45%;  
-    padding: 10px;
-    box-shadow: 3px 5px 22px rgba(128, 128, 128,0.5); 
+    padding: 10px; 
 }
-form{
-    box-shadow: 3px 5px 22px rgba(128, 128, 128,0.5); 
+form{  
     padding: 40px 30px;
     width: 100%;
 }
@@ -169,4 +178,12 @@ textarea{
     display:flex;
     justify-content: center;
     margin-top: 20px; 
+}
+footer{
+    background: #0a0c16;
+    padding:40px 70px 70px;
+    color: white;
+}
+.footer-content{
+    text-align: center;
 }
